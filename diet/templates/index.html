@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Check for Disease</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Can I eat this?</h1>
+    <form id="foodCheckForm">
+        <label for="disease">Disease:</label>
+        <select id="disease" name="disease" required>
+            {% for disease in diseases %}
+                <option value="{{ disease }}">{{ disease | capitalize }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="food">Food Item:</label>
+        <input type="text" id="food" name="food" required>
+        <br>
+        <button type="submit">Check</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#foodCheckForm').on('submit', function(event){
+                event.preventDefault();
+                $.ajax({
+                    url: '/check_food',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response){
+                        let message = response.allowed ? 'Yes, you can eat this food.' : 'No, you should avoid this food.';
+                        if(response.message) {
+                            message = response.message;
+                        }
+                        $('#result').text(message);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
