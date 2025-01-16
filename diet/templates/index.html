@@ -5,23 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Check for Disease</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 16px;
+            text-align: center;
+            display: none; 
+        }
+
+        #result.success {
+            background: #dff0d8;
+            color: #3c763d;
+            border: 1px solid #d6e9c6;
+        }
+
+        #result.error {
+            background: #f2dede;
+            color: #a94442;
+            border: 1px solid #ebccd1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Can I eat this?</h1>
-    <form id="foodCheckForm">
-        <label for="disease">Disease:</label>
-        <select id="disease" name="disease" required>
-            {% for disease in diseases %}
-                <option value="{{ disease }}">{{ disease | capitalize }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <label for="food">Food Item:</label>
-        <input type="text" id="food" name="food" required>
-        <br>
-        <button type="submit">Check</button>
-    </form>
-    <div id="result"></div>
+    <div class="container">
+        <h1>Can I Eat This?</h1>
+        <form id="foodCheckForm">
+            <label for="disease">Disease:</label>
+            <select id="disease" name="disease" required>
+                {% for disease in diseases %}
+                    <option value="{{ disease }}">{{ disease | capitalize }}</option>
+                {% endfor %}
+            </select>
+            <label for="food">Food Item:</label>
+            <input type="text" id="food" name="food" placeholder="Enter a food item..." required>
+            <button type="submit">Check</button>
+        </form>
+        <div id="result"></div>
+    </div>
 
     <script>
         $(document).ready(function(){
@@ -32,11 +110,24 @@
                     method: 'POST',
                     data: $(this).serialize(),
                     success: function(response){
+                        let resultDiv = $('#result');
                         let message = response.allowed ? 'Yes, you can eat this food.' : 'No, you should avoid this food.';
                         if(response.message) {
                             message = response.message;
                         }
-                        $('#result').text(message);
+
+                        resultDiv
+                            .removeClass('success error')
+                            .addClass(response.allowed ? 'success' : 'error')
+                            .text(message)
+                            .fadeIn();
+                    },
+                    error: function() {
+                        $('#result')
+                            .removeClass('success')
+                            .addClass('error')
+                            .text('An error occurred. Please try again.')
+                            .fadeIn();
                     }
                 });
             });
