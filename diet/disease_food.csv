@@ -1,76 +1,501 @@
 disease,food,allowed
-diabetes,apple,yes
-diabetes,banana,yes
-diabetes,grape,no
-diabetes,orange,yes
-diabetes,white bread,no
-diabetes,whole grain bread,yes
-diabetes,white rice,no
-diabetes,brown rice,yes
-diabetes,red meat,no
-diabetes,chicken,yes
-diabetes,fish,yes
-diabetes,candy,no
-diabetes,dark chocolate,yes
-diabetes,whole milk,no
-diabetes,skim milk,yes
-hypertension,salt,no
-hypertension,sugar,no
-hypertension,banana,yes
-hypertension,apple,yes
-hypertension,spinach,yes
-hypertension,beetroot,yes
-hypertension,red meat,no
-hypertension,fish,yes
-hypertension,low-fat yogurt,yes
-hypertension,pickles,no
-hypertension,whole grain bread,yes
-hypertension,white bread,no
-hypertension,processed meat,no
-hypertension,olive oil,yes
-celiac,wheat,no
-celiac,barley,no
-celiac,rye,no
-celiac,oats,no
-celiac,rice,yes
-celiac,corn,yes
-celiac,potato,yes
-celiac,quinoa,yes
-celiac,fish,yes
-celiac,meat,yes
-celiac,fruits,yes
-celiac,vegetables,yes
-celiac,dairy,yes
-celiac,soy sauce,no
-celiac,beer,no
-celiac,wine,yes
-lactose_intolerance,milk,no
-lactose_intolerance,cheese,no
-lactose_intolerance,yogurt,no
-lactose_intolerance,ice cream,no
-lactose_intolerance,almond milk,yes
-lactose_intolerance,soy milk,yes
-lactose_intolerance,fish,yes
-lactose_intolerance,meat,yes
-lactose_intolerance,vegetables,yes
-lactose_intolerance,fruits,yes
+lactose_intolerance,pasta,no
+heart_disease,whole milk,yes
+hypertension,eggs,yes
+hypertension,grape,no
+diabetes,high-fat dairy,yes
+lactose_intolerance,yogurt,yes
+celiac,apple,no
+diabetes,wine,yes
+diabetes,milk,yes
 lactose_intolerance,rice,yes
-lactose_intolerance,pasta,yes
-lactose_intolerance,bread,yes
-lactose_intolerance,eggs,yes
+diabetes,spinach,yes
+hypertension,almond milk,no
 heart_disease,red meat,no
-heart_disease,fish,yes
-heart_disease,whole grains,yes
-heart_disease,vegetables,yes
-heart_disease,fruits,yes
-heart_disease,nuts,yes
-heart_disease,olive oil,yes
-heart_disease,white bread,no
-heart_disease,processed foods,no
+celiac,whole milk,no
+celiac,rice,yes
+celiac,corn,no
+celiac,vegetables,no
+hypertension,vegetables,no
+diabetes,rice,yes
+heart_disease,bread,no
+lactose_intolerance,bread,no
+lactose_intolerance,almond milk,yes
+celiac,whole grain bread,no
+hypertension,dark chocolate,no
+hypertension,soy milk,yes
+lactose_intolerance,dairy,no
+lactose_intolerance,oatmeal,no
+hypertension,low-fat yogurt,no
 heart_disease,sugar,no
-heart_disease,salt,no
-heart_disease,oatmeal,yes
-heart_disease,low-fat dairy,yes
-heart_disease,high-fat dairy,no
+lactose_intolerance,soy milk,no
+celiac,sugar,no
+lactose_intolerance,orange,no
+lactose_intolerance,almond milk,yes
+heart_disease,orange,yes
+lactose_intolerance,orange,yes
+celiac,fruits,yes
+hypertension,grape,yes
+diabetes,processed meat,no
+heart_disease,low-fat dairy,no
+heart_disease,soy milk,no
+lactose_intolerance,pickles,yes
+celiac,wine,yes
+hypertension,salmon,yes
+hypertension,sugar,no
+diabetes,processed meat,yes
+lactose_intolerance,banana,no
+celiac,ice cream,yes
+hypertension,cheese,yes
+lactose_intolerance,fruits,yes
+diabetes,quinoa,no
+heart_disease,rye,no
+heart_disease,quinoa,yes
+diabetes,nuts,yes
+hypertension,almond milk,yes
+lactose_intolerance,bread,yes
+heart_disease,pasta,yes
+heart_disease,red meat,no
+hypertension,yogurt,yes
+hypertension,apple,no
+hypertension,fruits,no
+celiac,banana,no
+hypertension,processed foods,yes
+diabetes,orange,yes
+heart_disease,low-fat yogurt,no
+diabetes,banana,yes
+hypertension,low-fat dairy,no
+celiac,apple,no
+hypertension,whole grains,no
+heart_disease,rice,yes
+celiac,salmon,yes
+lactose_intolerance,oats,no
+celiac,processed foods,yes
+lactose_intolerance,grape,yes
+hypertension,beetroot,no
+heart_disease,spinach,yes
+lactose_intolerance,nuts,yes
+celiac,olive oil,yes
+heart_disease,white rice,yes
+hypertension,processed foods,yes
+celiac,pasta,yes
+diabetes,wine,yes
+diabetes,barley,no
+heart_disease,beer,no
+heart_disease,whole grains,yes
+lactose_intolerance,cheese,no
+heart_disease,orange,no
+lactose_intolerance,eggs,yes
+heart_disease,rice,no
+diabetes,red meat,no
+diabetes,dairy,no
+celiac,grape,yes
+heart_disease,corn,no
+celiac,whole grains,yes
+celiac,low-fat dairy,no
+lactose_intolerance,rice,yes
+lactose_intolerance,banana,no
+diabetes,corn,yes
+celiac,olive oil,no
+heart_disease,rye,yes
+lactose_intolerance,wheat,yes
+lactose_intolerance,rice,yes
+heart_disease,processed foods,no
+diabetes,dairy,yes
+heart_disease,processed foods,no
+lactose_intolerance,red meat,no
+celiac,salt,no
+heart_disease,salt,yes
+heart_disease,white bread,no
+hypertension,brown rice,yes
+hypertension,olive oil,yes
+celiac,salt,no
+lactose_intolerance,skim milk,yes
+hypertension,olive oil,yes
+hypertension,fruits,no
+celiac,low-fat dairy,yes
+heart_disease,oats,yes
+lactose_intolerance,beetroot,yes
+celiac,spinach,no
+celiac,corn,yes
+heart_disease,soy milk,yes
+heart_disease,quinoa,no
+hypertension,quinoa,no
+lactose_intolerance,red meat,no
+lactose_intolerance,nuts,no
+heart_disease,salmon,no
+celiac,wine,no
+hypertension,fruits,no
+hypertension,low-fat yogurt,no
+diabetes,beer,yes
+hypertension,apple,no
+lactose_intolerance,processed foods,no
+diabetes,processed meat,yes
+lactose_intolerance,vegetables,yes
+celiac,banana,no
+diabetes,potato,yes
+hypertension,brown rice,yes
+diabetes,whole milk,yes
+hypertension,processed foods,no
+heart_disease,corn,no
+celiac,beetroot,no
+hypertension,barley,yes
+diabetes,spinach,no
+celiac,dairy,yes
+heart_disease,eggs,no
+celiac,wine,yes
+diabetes,beetroot,yes
+celiac,barley,no
+diabetes,chicken,yes
+hypertension,almond milk,yes
+celiac,candy,no
+hypertension,soy sauce,no
+diabetes,apple,yes
+heart_disease,salmon,no
+hypertension,high-fat dairy,no
+heart_disease,potato,yes
+lactose_intolerance,high-fat dairy,yes
+celiac,banana,no
+lactose_intolerance,soy milk,yes
+diabetes,almond milk,yes
+hypertension,orange,yes
+celiac,candy,yes
+heart_disease,almond milk,yes
+heart_disease,salt,yes
+celiac,spinach,no
+heart_disease,bread,yes
+lactose_intolerance,grape,no
+hypertension,beetroot,yes
+celiac,fish,no
+hypertension,potato,yes
+diabetes,skim milk,yes
+celiac,processed meat,yes
+celiac,beetroot,no
+celiac,beer,no
+diabetes,grape,no
+diabetes,cheese,no
+heart_disease,milk,no
+hypertension,oats,yes
+lactose_intolerance,apple,no
+celiac,white bread,yes
+diabetes,spinach,yes
+hypertension,vegetables,yes
+celiac,fish,no
+celiac,candy,yes
+heart_disease,skim milk,yes
+lactose_intolerance,potato,yes
+diabetes,potato,no
+diabetes,oatmeal,yes
+heart_disease,low-fat yogurt,no
+lactose_intolerance,soy milk,yes
+lactose_intolerance,vegetables,no
+lactose_intolerance,dark chocolate,no
+hypertension,beer,no
+lactose_intolerance,barley,yes
+diabetes,skim milk,yes
+lactose_intolerance,milk,no
+diabetes,fish,no
+lactose_intolerance,fish,yes
+heart_disease,salmon,no
+celiac,whole milk,no
+diabetes,pickles,no
+heart_disease,orange,yes
+celiac,vegetables,yes
+lactose_intolerance,olive oil,yes
+diabetes,olive oil,no
+hypertension,salt,yes
+lactose_intolerance,soy sauce,yes
+hypertension,meat,yes
+diabetes,white rice,yes
+lactose_intolerance,processed meat,yes
+celiac,milk,yes
+hypertension,whole grains,yes
+diabetes,apple,yes
+hypertension,white bread,no
+celiac,low-fat dairy,no
+diabetes,dairy,no
+celiac,ice cream,yes
+lactose_intolerance,sugar,yes
+lactose_intolerance,dark chocolate,yes
+hypertension,rice,no
+lactose_intolerance,oatmeal,yes
+diabetes,banana,no
+heart_disease,ice cream,yes
+lactose_intolerance,spinach,yes
+diabetes,skim milk,no
+diabetes,ice cream,yes
+hypertension,whole milk,no
+celiac,fish,no
+heart_disease,orange,yes
+diabetes,pasta,no
+diabetes,eggs,no
+celiac,oatmeal,no
+celiac,eggs,yes
+celiac,low-fat yogurt,no
+hypertension,eggs,yes
+hypertension,corn,yes
+diabetes,meat,no
+celiac,low-fat dairy,no
+celiac,ice cream,no
+lactose_intolerance,low-fat yogurt,no
+diabetes,white rice,yes
+hypertension,white rice,yes
+diabetes,processed meat,no
+lactose_intolerance,brown rice,yes
+hypertension,white bread,no
+celiac,white rice,yes
+lactose_intolerance,meat,yes
+diabetes,corn,no
+celiac,candy,yes
+heart_disease,whole grains,no
+hypertension,beetroot,yes
+hypertension,dairy,no
+celiac,high-fat dairy,no
+diabetes,pasta,no
+heart_disease,fish,no
+heart_disease,ice cream,yes
+diabetes,oats,no
+lactose_intolerance,chicken,no
+hypertension,milk,no
+hypertension,pasta,no
+lactose_intolerance,soy milk,yes
+diabetes,bread,yes
+heart_disease,soy milk,no
+heart_disease,whole milk,no
+diabetes,salt,no
+heart_disease,processed meat,yes
+celiac,dark chocolate,yes
+heart_disease,oats,no
+lactose_intolerance,sugar,yes
+celiac,beer,no
+heart_disease,orange,yes
+diabetes,potato,yes
+hypertension,whole grain bread,yes
+diabetes,apple,yes
+lactose_intolerance,pickles,yes
+diabetes,processed meat,no
+heart_disease,ice cream,no
+diabetes,brown rice,yes
+diabetes,soy milk,no
+celiac,potato,no
+lactose_intolerance,orange,yes
+hypertension,bread,no
+diabetes,quinoa,yes
+heart_disease,whole milk,no
+diabetes,almond milk,yes
+diabetes,candy,no
+lactose_intolerance,salt,yes
+heart_disease,ice cream,yes
+hypertension,meat,no
+heart_disease,vegetables,yes
+diabetes,processed meat,no
+hypertension,wheat,yes
+diabetes,candy,no
+celiac,whole grain bread,no
+hypertension,wine,yes
+diabetes,white rice,no
+heart_disease,red meat,yes
+celiac,banana,yes
+heart_disease,olive oil,yes
+hypertension,beer,no
+celiac,vegetables,yes
+lactose_intolerance,vegetables,no
+celiac,eggs,yes
+lactose_intolerance,candy,no
+diabetes,meat,no
+celiac,rice,no
+hypertension,nuts,yes
+hypertension,candy,yes
+diabetes,fish,yes
+hypertension,brown rice,no
+lactose_intolerance,low-fat yogurt,yes
+lactose_intolerance,vegetables,yes
+hypertension,white rice,no
+lactose_intolerance,bread,no
+heart_disease,processed foods,yes
+hypertension,white rice,yes
+diabetes,orange,yes
+diabetes,orange,yes
+lactose_intolerance,vegetables,yes
+celiac,olive oil,no
+diabetes,low-fat dairy,yes
+diabetes,milk,no
+diabetes,soy sauce,yes
+diabetes,low-fat yogurt,yes
+lactose_intolerance,oats,no
+celiac,white rice,no
+lactose_intolerance,wheat,yes
+hypertension,pasta,yes
+lactose_intolerance,skim milk,yes
+celiac,fruits,no
+diabetes,low-fat yogurt,no
+diabetes,fruits,yes
+diabetes,meat,no
+lactose_intolerance,sugar,yes
+celiac,spinach,no
+hypertension,beetroot,yes
+heart_disease,rye,no
+hypertension,whole milk,yes
+hypertension,wheat,yes
 heart_disease,salmon,yes
-heart_disease,chicken,yes
+celiac,soy milk,yes
+celiac,whole grain bread,no
+hypertension,candy,yes
+diabetes,chicken,no
+lactose_intolerance,oats,no
+lactose_intolerance,meat,yes
+diabetes,high-fat dairy,no
+heart_disease,dairy,no
+heart_disease,low-fat yogurt,yes
+lactose_intolerance,beer,yes
+diabetes,pickles,yes
+heart_disease,almond milk,no
+diabetes,meat,yes
+celiac,wheat,yes
+heart_disease,rye,no
+celiac,dairy,yes
+lactose_intolerance,low-fat yogurt,yes
+celiac,dairy,yes
+celiac,meat,yes
+hypertension,spinach,yes
+heart_disease,yogurt,yes
+hypertension,beetroot,no
+heart_disease,almond milk,yes
+heart_disease,red meat,no
+hypertension,whole grains,yes
+heart_disease,grape,yes
+lactose_intolerance,red meat,no
+hypertension,rice,no
+hypertension,candy,yes
+diabetes,dairy,no
+diabetes,low-fat yogurt,yes
+heart_disease,salmon,no
+diabetes,quinoa,yes
+hypertension,salmon,no
+hypertension,salmon,no
+lactose_intolerance,high-fat dairy,yes
+diabetes,cheese,yes
+diabetes,whole grains,yes
+hypertension,skim milk,yes
+celiac,dairy,yes
+lactose_intolerance,whole grains,yes
+hypertension,processed meat,yes
+hypertension,chicken,yes
+heart_disease,beetroot,no
+heart_disease,low-fat dairy,no
+hypertension,whole milk,yes
+diabetes,low-fat dairy,no
+heart_disease,wheat,no
+heart_disease,whole grains,yes
+celiac,whole milk,yes
+hypertension,almond milk,yes
+celiac,apple,yes
+hypertension,oats,no
+diabetes,rye,no
+heart_disease,eggs,no
+lactose_intolerance,rye,no
+hypertension,red meat,yes
+heart_disease,spinach,yes
+hypertension,processed meat,no
+hypertension,whole milk,yes
+lactose_intolerance,salmon,yes
+hypertension,low-fat yogurt,yes
+heart_disease,almond milk,no
+lactose_intolerance,salmon,yes
+celiac,dairy,no
+celiac,almond milk,yes
+diabetes,quinoa,no
+heart_disease,white bread,yes
+diabetes,sugar,yes
+hypertension,whole grains,yes
+celiac,soy milk,no
+hypertension,dairy,yes
+hypertension,barley,no
+lactose_intolerance,processed foods,no
+heart_disease,rye,yes
+diabetes,white rice,yes
+heart_disease,almond milk,yes
+lactose_intolerance,whole grain bread,yes
+heart_disease,brown rice,no
+lactose_intolerance,white rice,no
+diabetes,whole milk,yes
+lactose_intolerance,white bread,yes
+celiac,soy sauce,yes
+celiac,salt,yes
+heart_disease,whole milk,no
+heart_disease,whole milk,yes
+hypertension,high-fat dairy,yes
+celiac,meat,no
+celiac,wine,no
+heart_disease,rice,yes
+lactose_intolerance,wheat,yes
+lactose_intolerance,oats,yes
+lactose_intolerance,rice,yes
+lactose_intolerance,olive oil,no
+diabetes,candy,yes
+celiac,apple,no
+diabetes,wine,yes
+lactose_intolerance,oats,yes
+hypertension,rye,no
+diabetes,chicken,no
+heart_disease,banana,no
+heart_disease,high-fat dairy,no
+celiac,processed meat,no
+celiac,white bread,yes
+lactose_intolerance,dark chocolate,no
+diabetes,fruits,no
+hypertension,olive oil,yes
+celiac,potato,yes
+lactose_intolerance,orange,no
+heart_disease,fruits,no
+diabetes,fish,no
+celiac,chicken,yes
+diabetes,potato,yes
+heart_disease,red meat,no
+celiac,fruits,yes
+diabetes,whole milk,yes
+celiac,rye,yes
+hypertension,wheat,no
+heart_disease,whole milk,yes
+hypertension,nuts,yes
+hypertension,barley,no
+heart_disease,white bread,no
+celiac,sugar,yes
+celiac,white rice,no
+celiac,salt,yes
+hypertension,bread,yes
+heart_disease,processed foods,yes
+hypertension,ice cream,no
+celiac,rye,no
+diabetes,dairy,yes
+celiac,oatmeal,yes
+lactose_intolerance,eggs,yes
+heart_disease,corn,yes
+celiac,beer,no
+celiac,cheese,no
+celiac,dark chocolate,yes
+hypertension,chicken,yes
+celiac,beer,no
+diabetes,whole grain bread,yes
+heart_disease,whole milk,yes
+heart_disease,brown rice,yes
+celiac,salt,yes
+diabetes,beetroot,yes
+hypertension,eggs,yes
+lactose_intolerance,chicken,no
+celiac,cheese,no
+heart_disease,cheese,yes
+hypertension,ice cream,no
+lactose_intolerance,skim milk,yes
+hypertension,salt,no
+hypertension,brown rice,no
+heart_disease,soy sauce,yes
+hypertension,soy milk,yes
+diabetes,barley,yes
+celiac,ice cream,no
+diabetes,wine,yes
+hypertension,salmon,yes
+lactose_intolerance,pickles,no
+celiac,whole grains,yes
+hypertension,eggs,no
+heart_disease,salt,no
